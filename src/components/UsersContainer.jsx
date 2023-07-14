@@ -25,7 +25,7 @@ const UsersContainer = ({ users }) => {
               </Link>
             </div>
           ) : (
-            "Username not found!"
+            <h1 className="text-2xl">User not found!</h1>
           )
         )}
     </div>
